@@ -1392,8 +1392,8 @@
     "gender_representation": "Male, Female, Non-binary",
     "geographic_coverage": ["Seoul", "Busan", "Daegu", "Incheon", "Gwangju", "Daejeon", "Ulsan", "Sejong", "Gyeonggi-do", "Gangwon-do", "Chungcheongnam-do", "Jeju-do"],
     "health_condition_severity": {
-      "serious": 5,
-      "moderate": 5,
+      "serious": 4,
+      "moderate": 6,
       "light": 5
     },
     "common_korean_health_issues_represented": [

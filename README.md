@@ -1,5 +1,5 @@
 # AI-in-healthcare
-This is a repo for AI in Healtchare class for aSSIST sutdents
+This is a repo for AI in Healthcare class for aSSIST students
 
 ## Patient Profiles
 
