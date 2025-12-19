@@ -1,0 +1,166 @@
+{
+  "patients": [
+    {
+      "patient_id": "DM001",
+      "demographics": {
+        "age": 58,
+        "gender": "F",
+        "ethnicity": "Hispanic"
+      },
+      "diagnosis": {
+        "type": "Type 2 Diabetes",
+        "diagnosis_date": "2020-03-15",
+        "duration_years": 4
+      },
+      "clinical_data": {
+        "hba1c": 7.8,
+        "fasting_glucose": 165,
+        "weight_kg": 82,
+        "bmi": 31.2,
+        "blood_pressure": "142/88"
+      },
+      "medications": [
+        "Metformin 1000mg twice daily",
+        "Lisinopril 10mg daily",
+        "Atorvastatin 20mg daily"
+      ],
+      "complications": [
+        "Mild peripheral neuropathy",
+        "Early diabetic retinopathy"
+      ],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "Occasional",
+        "exercise": "Sedentary"
+      }
+    },
+    {
+      "patient_id": "DM002",
+      "demographics": {
+        "age": 62,
+        "gender": "M",
+        "ethnicity": "Caucasian"
+      },
+      "diagnosis": {
+        "type": "Type 2 Diabetes",
+        "diagnosis_date": "2018-07-22",
+        "duration_years": 6
+      },
+      "clinical_data": {
+        "hba1c": 8.5,
+        "fasting_glucose": 185,
+        "weight_kg": 95,
+        "bmi": 32.8,
+        "blood_pressure": "155/92"
+      },
+      "medications": [
+        "Metformin 1000mg twice daily",
+        "Glipizide 10mg daily",
+        "Amlodipine 5mg daily"
+      ],
+      "complications": [
+        "Diabetic nephropathy Stage 2",
+        "Peripheral arterial disease"
+      ],
+      "lifestyle": {
+        "smoking": "Former (quit 5 years ago)",
+        "alcohol": "None",
+        "exercise": "Light walking 2x/week"
+      }
+    },
+    {
+      "patient_id": "DM003",
+      "demographics": {
+        "age": 45,
+        "gender": "F",
+        "ethnicity": "African American"
+      },
+      "diagnosis": {
+        "type": "Type 2 Diabetes",
+        "diagnosis_date": "2022-11-10",
+        "duration_years": 2
+      },
+      "clinical_data": {
+        "hba1c": 6.9,
+        "fasting_glucose": 142,
+        "weight_kg": 78,
+        "bmi": 29.5,
+        "blood_pressure": "138/84"
+      },
+      "medications": [
+        "Metformin 850mg twice daily"
+      ],
+      "complications": [],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "None",
+        "exercise": "Moderate 3x/week"
+      }
+    },
+    {
+      "patient_id": "DM004",
+      "demographics": {
+        "age": 71,
+        "gender": "M",
+        "ethnicity": "Asian"
+      },
+      "diagnosis": {
+        "type": "Type 2 Diabetes",
+        "diagnosis_date": "2015-02-18",
+        "duration_years": 9
+      },
+      "clinical_data": {
+        "hba1c": 9.2,
+        "fasting_glucose": 215,
+        "weight_kg": 72,
+        "bmi": 27.3,
+        "blood_pressure": "148/90"
+      },
+      "medications": [
+        "Insulin glargine 30 units daily",
+        "Metformin 1000mg twice daily",
+        "Lisinopril 20mg daily",
+        "Aspirin 81mg daily"
+      ],
+      "complications": [
+        "Diabetic retinopathy",
+        "Chronic kidney disease Stage 3"
+      ],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "None",
+        "exercise": "Sedentary"
+      }
+    },
+    {
+      "patient_id": "DM005",
+      "demographics": {
+        "age": 52,
+        "gender": "F",
+        "ethnicity": "Caucasian"
+      },
+      "diagnosis": {
+        "type": "Type 2 Diabetes",
+        "diagnosis_date": "2021-09-05",
+        "duration_years": 3
+      },
+      "clinical_data": {
+        "hba1c": 7.2,
+        "fasting_glucose": 152,
+        "weight_kg": 68,
+        "bmi": 26.8,
+        "blood_pressure": "135/82"
+      },
+      "medications": [
+        "Metformin 1000mg twice daily",
+        "Empagliflozin 10mg daily"
+      ],
+      "complications": [],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "Social",
+        "exercise": "Regular 4x/week"
+      }
+    }
+  ]
+}

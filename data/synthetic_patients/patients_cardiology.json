@@ -1,0 +1,209 @@
+{
+  "patients": [
+    {
+      "patient_id": "CARD001",
+      "demographics": {
+        "age": 67,
+        "gender": "M",
+        "ethnicity": "Caucasian"
+      },
+      "diagnosis": {
+        "primary": "Coronary Artery Disease",
+        "secondary": ["Hypertension", "Hyperlipidemia"],
+        "diagnosis_date": "2019-05-12"
+      },
+      "cardiac_history": {
+        "previous_mi": true,
+        "mi_date": "2019-05-10",
+        "pci_performed": true,
+        "stents": 2,
+        "location": "LAD and RCA"
+      },
+      "clinical_data": {
+        "ejection_fraction": 45,
+        "blood_pressure": "138/85",
+        "heart_rate": 68,
+        "cholesterol": {
+          "total": 185,
+          "ldl": 98,
+          "hdl": 42,
+          "triglycerides": 165
+        }
+      },
+      "medications": [
+        "Aspirin 81mg daily",
+        "Clopidogrel 75mg daily",
+        "Atorvastatin 80mg daily",
+        "Metoprolol 50mg twice daily",
+        "Lisinopril 20mg daily"
+      ],
+      "lifestyle": {
+        "smoking": "Former (quit after MI)",
+        "alcohol": "None",
+        "exercise": "Cardiac rehab 3x/week"
+      }
+    },
+    {
+      "patient_id": "CARD002",
+      "demographics": {
+        "age": 73,
+        "gender": "F",
+        "ethnicity": "African American"
+      },
+      "diagnosis": {
+        "primary": "Heart Failure with Reduced Ejection Fraction",
+        "secondary": ["Atrial Fibrillation", "Type 2 Diabetes"],
+        "diagnosis_date": "2020-08-22"
+      },
+      "cardiac_history": {
+        "previous_mi": false,
+        "pci_performed": false,
+        "nyha_class": "II"
+      },
+      "clinical_data": {
+        "ejection_fraction": 35,
+        "blood_pressure": "128/78",
+        "heart_rate": 76,
+        "bnp": 450,
+        "cholesterol": {
+          "total": 198,
+          "ldl": 115,
+          "hdl": 48,
+          "triglycerides": 175
+        }
+      },
+      "medications": [
+        "Sacubitril/Valsartan 97/103mg twice daily",
+        "Carvedilol 25mg twice daily",
+        "Furosemide 40mg daily",
+        "Spironolactone 25mg daily",
+        "Apixaban 5mg twice daily"
+      ],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "None",
+        "exercise": "Light daily walks"
+      }
+    },
+    {
+      "patient_id": "CARD003",
+      "demographics": {
+        "age": 58,
+        "gender": "M",
+        "ethnicity": "Hispanic"
+      },
+      "diagnosis": {
+        "primary": "Hypertension",
+        "secondary": ["Hyperlipidemia"],
+        "diagnosis_date": "2018-03-15"
+      },
+      "cardiac_history": {
+        "previous_mi": false,
+        "pci_performed": false,
+        "family_history": "Father had MI at age 62"
+      },
+      "clinical_data": {
+        "ejection_fraction": 60,
+        "blood_pressure": "145/92",
+        "heart_rate": 72,
+        "cholesterol": {
+          "total": 225,
+          "ldl": 145,
+          "hdl": 38,
+          "triglycerides": 210
+        }
+      },
+      "medications": [
+        "Amlodipine 10mg daily",
+        "Hydrochlorothiazide 25mg daily",
+        "Atorvastatin 40mg daily"
+      ],
+      "lifestyle": {
+        "smoking": "Current (10 cigarettes/day)",
+        "alcohol": "Moderate",
+        "exercise": "Minimal"
+      }
+    },
+    {
+      "patient_id": "CARD004",
+      "demographics": {
+        "age": 81,
+        "gender": "F",
+        "ethnicity": "Caucasian"
+      },
+      "diagnosis": {
+        "primary": "Atrial Fibrillation",
+        "secondary": ["Hypertension", "Chronic Kidney Disease Stage 3"],
+        "diagnosis_date": "2017-11-08"
+      },
+      "cardiac_history": {
+        "previous_mi": false,
+        "pci_performed": false,
+        "chads_vasc_score": 5
+      },
+      "clinical_data": {
+        "ejection_fraction": 55,
+        "blood_pressure": "138/82",
+        "heart_rate": 88,
+        "cholesterol": {
+          "total": 178,
+          "ldl": 102,
+          "hdl": 52,
+          "triglycerides": 120
+        }
+      },
+      "medications": [
+        "Apixaban 2.5mg twice daily",
+        "Metoprolol 25mg twice daily",
+        "Lisinopril 10mg daily"
+      ],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "None",
+        "exercise": "Light household activities"
+      }
+    },
+    {
+      "patient_id": "CARD005",
+      "demographics": {
+        "age": 55,
+        "gender": "M",
+        "ethnicity": "Asian"
+      },
+      "diagnosis": {
+        "primary": "Unstable Angina",
+        "secondary": ["Hyperlipidemia", "Obesity"],
+        "diagnosis_date": "2024-01-20"
+      },
+      "cardiac_history": {
+        "previous_mi": false,
+        "pci_performed": false,
+        "recent_symptoms": "Chest pain on exertion for 2 weeks"
+      },
+      "clinical_data": {
+        "ejection_fraction": 58,
+        "blood_pressure": "142/88",
+        "heart_rate": 78,
+        "troponin": "Negative",
+        "cholesterol": {
+          "total": 268,
+          "ldl": 178,
+          "hdl": 35,
+          "triglycerides": 275
+        }
+      },
+      "medications": [
+        "Aspirin 325mg daily",
+        "Atorvastatin 80mg daily",
+        "Metoprolol 50mg twice daily",
+        "Nitroglycerin SL as needed"
+      ],
+      "lifestyle": {
+        "smoking": "Never",
+        "alcohol": "Social",
+        "exercise": "Minimal"
+      },
+      "pending_procedures": ["Cardiac catheterization scheduled"]
+    }
+  ]
+}
