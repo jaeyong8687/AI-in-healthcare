@@ -1,0 +1,1421 @@
+{
+  "description": "Patient profiles representing typical Korean population with varied health conditions and living habits",
+  "version": "1.0",
+  "created_date": "2024-01-15",
+  "patients": [
+    {
+      "id": "KR-001",
+      "demographics": {
+        "name": "김영수",
+        "name_romanized": "Kim Young-soo",
+        "age": 68,
+        "gender": "Male",
+        "date_of_birth": "1956-03-15",
+        "residence": {
+          "city": "서울특별시",
+          "city_romanized": "Seoul",
+          "district": "강남구",
+          "district_romanized": "Gangnam-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "Married",
+        "occupation": "Retired (Former Company Executive)",
+        "education": "University Graduate",
+        "income_level": "Upper-middle"
+      },
+      "health_conditions": {
+        "severity": "Serious",
+        "primary_conditions": [
+          {
+            "condition": "Type 2 Diabetes Mellitus",
+            "diagnosed_year": 2010,
+            "status": "Controlled with medication",
+            "hba1c": "7.2%"
+          },
+          {
+            "condition": "Hypertension",
+            "diagnosed_year": 2008,
+            "status": "Controlled with medication",
+            "blood_pressure": "135/85 mmHg"
+          },
+          {
+            "condition": "Coronary Artery Disease",
+            "diagnosed_year": 2018,
+            "status": "Post-stent placement, stable",
+            "notes": "Had PCI procedure in 2018"
+          }
+        ],
+        "secondary_conditions": [
+          "Hyperlipidemia",
+          "Mild osteoarthritis (knees)"
+        ],
+        "medications": [
+          "Metformin 1000mg twice daily",
+          "Amlodipine 5mg once daily",
+          "Aspirin 100mg once daily",
+          "Atorvastatin 20mg once daily",
+          "Clopidogrel 75mg once daily"
+        ],
+        "allergies": ["Penicillin"]
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Traditional Korean diet with reduced rice intake",
+          "preferences": ["Fermented foods (kimchi, doenjang)", "Fish", "Vegetables"],
+          "restrictions": ["Limiting sodium", "Limiting refined carbohydrates"],
+          "eating_out_frequency": "2-3 times per week",
+          "alcohol_consumption": "Occasional soju (1-2 glasses weekly)"
+        },
+        "exercise": {
+          "frequency": "5 times per week",
+          "types": ["Morning walks (30-40 minutes)", "Light stretching"],
+          "duration_per_session": "30-40 minutes",
+          "notes": "Walks in nearby park, avoids strenuous activity due to heart condition"
+        },
+        "sleep": {
+          "average_hours": 6.5,
+          "quality": "Fair",
+          "issues": ["Occasional insomnia", "Early morning awakening"],
+          "bedtime": "22:00",
+          "wake_time": "05:00"
+        },
+        "smoking": {
+          "status": "Former smoker",
+          "quit_year": 2018,
+          "pack_years": 30
+        },
+        "stress_level": "Moderate",
+        "social_activities": ["Weekly golf with friends", "Church activities", "Grandchildren care"],
+        "screen_time": "3-4 hours daily (TV, smartphone)"
+      },
+      "family_history": {
+        "father": "Stroke (deceased at 72)",
+        "mother": "Type 2 Diabetes, lived to 85",
+        "siblings": ["Brother with hypertension"]
+      },
+      "health_checkup": {
+        "frequency": "Every 6 months",
+        "last_checkup": "2023-12-01",
+        "bmi": 25.8,
+        "waist_circumference": "92 cm"
+      }
+    },
+    {
+      "id": "KR-002",
+      "demographics": {
+        "name": "박미영",
+        "name_romanized": "Park Mi-young",
+        "age": 45,
+        "gender": "Female",
+        "date_of_birth": "1979-07-22",
+        "residence": {
+          "city": "부산광역시",
+          "city_romanized": "Busan",
+          "district": "해운대구",
+          "district_romanized": "Haeundae-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "Married",
+        "occupation": "Elementary School Teacher",
+        "education": "University Graduate",
+        "income_level": "Middle"
+      },
+      "health_conditions": {
+        "severity": "Moderate",
+        "primary_conditions": [
+          {
+            "condition": "Thyroid Nodule",
+            "diagnosed_year": 2021,
+            "status": "Under observation",
+            "notes": "Benign nodule, annual ultrasound monitoring"
+          },
+          {
+            "condition": "Gastroesophageal Reflux Disease (GERD)",
+            "diagnosed_year": 2019,
+            "status": "Controlled with lifestyle modification and occasional medication"
+          }
+        ],
+        "secondary_conditions": [
+          "Chronic tension headaches",
+          "Vitamin D deficiency"
+        ],
+        "medications": [
+          "Esomeprazole 20mg as needed",
+          "Vitamin D3 2000 IU daily"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Mixed Korean and Western diet",
+          "preferences": ["Home-cooked meals", "Seafood", "Fresh fruits"],
+          "restrictions": ["Avoiding spicy foods due to GERD", "Limiting coffee"],
+          "eating_out_frequency": "1-2 times per week",
+          "alcohol_consumption": "Rare (social occasions only)"
+        },
+        "exercise": {
+          "frequency": "3 times per week",
+          "types": ["Yoga", "Swimming", "Weekend hiking"],
+          "duration_per_session": "60 minutes",
+          "notes": "Member of local yoga studio"
+        },
+        "sleep": {
+          "average_hours": 7,
+          "quality": "Good",
+          "issues": ["Occasional difficulty falling asleep due to work stress"],
+          "bedtime": "23:00",
+          "wake_time": "06:30"
+        },
+        "smoking": {
+          "status": "Never smoker"
+        },
+        "stress_level": "Moderate to High",
+        "social_activities": ["Book club", "PTA meetings", "Weekend family outings"],
+        "screen_time": "4-5 hours daily (work-related and smartphone)"
+      },
+      "family_history": {
+        "father": "Healthy, age 72",
+        "mother": "Thyroid disease, age 70",
+        "siblings": ["Sister with no major health issues"]
+      },
+      "health_checkup": {
+        "frequency": "Annually",
+        "last_checkup": "2023-11-15",
+        "bmi": 22.5,
+        "waist_circumference": "76 cm"
+      }
+    },
+    {
+      "id": "KR-003",
+      "demographics": {
+        "name": "이준혁",
+        "name_romanized": "Lee Jun-hyuk",
+        "age": 32,
+        "gender": "Male",
+        "date_of_birth": "1992-11-08",
+        "residence": {
+          "city": "서울특별시",
+          "city_romanized": "Seoul",
+          "district": "마포구",
+          "district_romanized": "Mapo-gu",
+          "type": "Officetel"
+        },
+        "marital_status": "Single",
+        "occupation": "IT Software Developer",
+        "education": "University Graduate (Computer Science)",
+        "income_level": "Upper-middle"
+      },
+      "health_conditions": {
+        "severity": "Light",
+        "primary_conditions": [
+          {
+            "condition": "Computer Vision Syndrome",
+            "diagnosed_year": 2022,
+            "status": "Managed with blue light glasses and eye drops"
+          },
+          {
+            "condition": "Mild Lower Back Pain",
+            "diagnosed_year": 2023,
+            "status": "Intermittent, managed with stretching",
+            "notes": "Related to prolonged sitting at desk"
+          }
+        ],
+        "secondary_conditions": [
+          "Occasional allergic rhinitis (seasonal)"
+        ],
+        "medications": [
+          "Artificial tears as needed",
+          "Cetirizine 10mg during allergy season"
+        ],
+        "allergies": ["Pollen"]
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 2,
+          "description": "Irregular meal times, often skips breakfast",
+          "preferences": ["Convenience store food", "Delivery food", "Coffee (4-5 cups daily)"],
+          "restrictions": [],
+          "eating_out_frequency": "5-6 times per week",
+          "alcohol_consumption": "Moderate (2-3 times weekly with colleagues, soju and beer)"
+        },
+        "exercise": {
+          "frequency": "1-2 times per week",
+          "types": ["Gym workout (when time permits)", "Occasional basketball"],
+          "duration_per_session": "60-90 minutes",
+          "notes": "Sedentary lifestyle due to work demands"
+        },
+        "sleep": {
+          "average_hours": 5.5,
+          "quality": "Poor",
+          "issues": ["Late night gaming", "Irregular sleep schedule", "Difficulty waking up"],
+          "bedtime": "01:00-02:00",
+          "wake_time": "08:00"
+        },
+        "smoking": {
+          "status": "Current smoker",
+          "cigarettes_per_day": 10,
+          "years_smoking": 8
+        },
+        "stress_level": "High",
+        "social_activities": ["Online gaming", "Occasional meetups with friends", "K-pop concerts"],
+        "screen_time": "12+ hours daily (work and leisure)"
+      },
+      "family_history": {
+        "father": "Hypertension, age 60",
+        "mother": "Healthy, age 58",
+        "siblings": ["Younger sister, healthy"]
+      },
+      "health_checkup": {
+        "frequency": "Every 2 years (company-mandated)",
+        "last_checkup": "2023-06-20",
+        "bmi": 26.2,
+        "waist_circumference": "88 cm"
+      }
+    },
+    {
+      "id": "KR-004",
+      "demographics": {
+        "name": "최순자",
+        "name_romanized": "Choi Soon-ja",
+        "age": 78,
+        "gender": "Female",
+        "date_of_birth": "1946-02-10",
+        "residence": {
+          "city": "대구광역시",
+          "city_romanized": "Daegu",
+          "district": "수성구",
+          "district_romanized": "Suseong-gu",
+          "type": "Traditional House (한옥)"
+        },
+        "marital_status": "Widowed",
+        "occupation": "Retired (Former Market Vendor)",
+        "education": "Elementary School",
+        "income_level": "Lower-middle"
+      },
+      "health_conditions": {
+        "severity": "Serious",
+        "primary_conditions": [
+          {
+            "condition": "Osteoporosis",
+            "diagnosed_year": 2015,
+            "status": "On treatment",
+            "t_score": "-3.2"
+          },
+          {
+            "condition": "Degenerative Arthritis",
+            "diagnosed_year": 2010,
+            "status": "Chronic, affecting both knees and lumbar spine",
+            "notes": "Considering knee replacement surgery"
+          },
+          {
+            "condition": "Mild Cognitive Impairment",
+            "diagnosed_year": 2022,
+            "status": "Under neurological monitoring",
+            "mmse_score": "24/30"
+          }
+        ],
+        "secondary_conditions": [
+          "Chronic constipation",
+          "Age-related hearing loss",
+          "Cataracts (mild, bilateral)"
+        ],
+        "medications": [
+          "Calcium 500mg + Vitamin D3 twice daily",
+          "Alendronate 70mg weekly",
+          "Acetaminophen 500mg as needed for pain",
+          "Docusate sodium for constipation"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Traditional Korean diet, prepared by daughter",
+          "preferences": ["Rice porridge (죽)", "Soft vegetables", "Fish", "Tofu"],
+          "restrictions": ["Difficulty chewing hard foods"],
+          "eating_out_frequency": "Rarely",
+          "alcohol_consumption": "None"
+        },
+        "exercise": {
+          "frequency": "Daily",
+          "types": ["Light walking with cane", "Simple seated exercises"],
+          "duration_per_session": "15-20 minutes",
+          "notes": "Limited mobility due to arthritis, uses walking aid"
+        },
+        "sleep": {
+          "average_hours": 7,
+          "quality": "Fair",
+          "issues": ["Frequent nighttime urination (2-3 times)", "Joint pain affecting sleep"],
+          "bedtime": "21:00",
+          "wake_time": "05:30"
+        },
+        "smoking": {
+          "status": "Never smoker"
+        },
+        "stress_level": "Low",
+        "social_activities": ["Senior center activities", "Buddhist temple visits", "Watching TV dramas"],
+        "screen_time": "4-5 hours daily (TV)"
+      },
+      "family_history": {
+        "father": "Deceased (stroke)",
+        "mother": "Deceased (natural causes at 82)",
+        "siblings": ["One brother deceased, one sister with dementia"]
+      },
+      "health_checkup": {
+        "frequency": "Every 6 months",
+        "last_checkup": "2023-10-05",
+        "bmi": 21.5,
+        "waist_circumference": "82 cm"
+      },
+      "caregiver_info": {
+        "primary_caregiver": "Daughter",
+        "living_arrangement": "Lives with daughter's family",
+        "care_needs": "Assistance with bathing, medication management"
+      }
+    },
+    {
+      "id": "KR-005",
+      "demographics": {
+        "name": "정수민",
+        "name_romanized": "Jung Su-min",
+        "age": 28,
+        "gender": "Female",
+        "date_of_birth": "1996-05-30",
+        "residence": {
+          "city": "인천광역시",
+          "city_romanized": "Incheon",
+          "district": "연수구",
+          "district_romanized": "Yeonsu-gu",
+          "type": "One-room (원룸)"
+        },
+        "marital_status": "Single",
+        "occupation": "Nurse (Hospital)",
+        "education": "Nursing College Graduate",
+        "income_level": "Middle"
+      },
+      "health_conditions": {
+        "severity": "Light",
+        "primary_conditions": [
+          {
+            "condition": "Iron Deficiency Anemia",
+            "diagnosed_year": 2023,
+            "status": "On iron supplements",
+            "hemoglobin": "10.5 g/dL"
+          },
+          {
+            "condition": "Anxiety Disorder",
+            "diagnosed_year": 2022,
+            "status": "Managed with counseling and lifestyle changes",
+            "notes": "Work-related stress contributing factor"
+          }
+        ],
+        "secondary_conditions": [
+          "Dysmenorrhea",
+          "Chronic fatigue"
+        ],
+        "medications": [
+          "Ferrous sulfate 325mg daily",
+          "Birth control pills for dysmenorrhea"
+        ],
+        "allergies": ["Sulfa drugs"]
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 2,
+          "description": "Often irregular due to shift work",
+          "preferences": ["Salads", "Protein shakes", "Korean food when time permits"],
+          "restrictions": ["Trying to increase iron-rich foods"],
+          "eating_out_frequency": "3-4 times per week",
+          "alcohol_consumption": "Occasional (wine 1-2 times monthly)"
+        },
+        "exercise": {
+          "frequency": "2-3 times per week",
+          "types": ["Pilates", "Home workout videos", "Walking"],
+          "duration_per_session": "45 minutes",
+          "notes": "Difficult to maintain routine due to rotating shifts"
+        },
+        "sleep": {
+          "average_hours": 6,
+          "quality": "Poor",
+          "issues": ["Shift work disorder", "Difficulty adjusting to night shifts", "Uses sleep mask and blackout curtains"],
+          "bedtime": "Variable (shift-dependent)",
+          "wake_time": "Variable"
+        },
+        "smoking": {
+          "status": "Never smoker"
+        },
+        "stress_level": "High",
+        "social_activities": ["K-drama watching", "Café visits with friends", "Instagram/social media"],
+        "screen_time": "5-6 hours daily"
+      },
+      "family_history": {
+        "father": "Type 2 Diabetes, age 55",
+        "mother": "Healthy, age 53",
+        "siblings": ["Younger brother, healthy"]
+      },
+      "health_checkup": {
+        "frequency": "Annually",
+        "last_checkup": "2023-09-10",
+        "bmi": 20.1,
+        "waist_circumference": "68 cm"
+      }
+    },
+    {
+      "id": "KR-006",
+      "demographics": {
+        "name": "한동석",
+        "name_romanized": "Han Dong-seok",
+        "age": 55,
+        "gender": "Male",
+        "date_of_birth": "1969-09-12",
+        "residence": {
+          "city": "경기도 수원시",
+          "city_romanized": "Suwon, Gyeonggi-do",
+          "district": "영통구",
+          "district_romanized": "Yeongtong-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "Married",
+        "occupation": "Factory Manager (Manufacturing)",
+        "education": "Technical College Graduate",
+        "income_level": "Middle"
+      },
+      "health_conditions": {
+        "severity": "Moderate",
+        "primary_conditions": [
+          {
+            "condition": "Fatty Liver Disease (NAFLD)",
+            "diagnosed_year": 2020,
+            "status": "Lifestyle modification recommended",
+            "notes": "Grade 2 fatty liver on ultrasound"
+          },
+          {
+            "condition": "Pre-diabetes",
+            "diagnosed_year": 2022,
+            "status": "Monitored, HbA1c 6.2%"
+          },
+          {
+            "condition": "Gout",
+            "diagnosed_year": 2018,
+            "status": "Controlled with medication and diet",
+            "uric_acid": "7.8 mg/dL"
+          }
+        ],
+        "secondary_conditions": [
+          "Snoring with suspected sleep apnea",
+          "Hemorrhoids"
+        ],
+        "medications": [
+          "Allopurinol 100mg daily",
+          "Omega-3 fatty acids"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Heavy meals, especially dinner with work colleagues",
+          "preferences": ["Korean BBQ (삼겹살)", "Fried chicken", "Jjigae (stews)"],
+          "restrictions": ["Advised to reduce alcohol and red meat"],
+          "eating_out_frequency": "4-5 times per week (business meals)",
+          "alcohol_consumption": "Heavy (soju 2-3 bottles, 3-4 times weekly)"
+        },
+        "exercise": {
+          "frequency": "1 time per week",
+          "types": ["Weekend golf", "Occasional walking"],
+          "duration_per_session": "4 hours (golf)",
+          "notes": "Mostly sedentary due to desk work and driving"
+        },
+        "sleep": {
+          "average_hours": 6,
+          "quality": "Poor",
+          "issues": ["Heavy snoring", "Waking up tired", "Wife reports apnea episodes"],
+          "bedtime": "00:00",
+          "wake_time": "06:30"
+        },
+        "smoking": {
+          "status": "Current smoker",
+          "cigarettes_per_day": 15,
+          "years_smoking": 30
+        },
+        "stress_level": "High",
+        "social_activities": ["Golf with clients", "Drinking gatherings (회식)", "Watching sports"],
+        "screen_time": "2-3 hours daily"
+      },
+      "family_history": {
+        "father": "Liver cancer (deceased at 65)",
+        "mother": "Hypertension, age 82",
+        "siblings": ["Brother with diabetes"]
+      },
+      "health_checkup": {
+        "frequency": "Annually (company-provided)",
+        "last_checkup": "2023-08-15",
+        "bmi": 28.5,
+        "waist_circumference": "98 cm"
+      }
+    },
+    {
+      "id": "KR-007",
+      "demographics": {
+        "name": "서지원",
+        "name_romanized": "Seo Ji-won",
+        "age": 16,
+        "gender": "Female",
+        "date_of_birth": "2008-04-18",
+        "residence": {
+          "city": "광주광역시",
+          "city_romanized": "Gwangju",
+          "district": "서구",
+          "district_romanized": "Seo-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "Single",
+        "occupation": "High School Student",
+        "education": "Currently in High School",
+        "income_level": "Middle (Family)"
+      },
+      "health_conditions": {
+        "severity": "Light",
+        "primary_conditions": [
+          {
+            "condition": "Myopia (Nearsightedness)",
+            "diagnosed_year": 2018,
+            "status": "Wearing glasses, -4.5 diopters both eyes",
+            "notes": "Progressive, considering orthokeratology"
+          },
+          {
+            "condition": "Atopic Dermatitis",
+            "diagnosed_year": 2010,
+            "status": "Mild, controlled with moisturizers",
+            "notes": "Flares during exam periods"
+          }
+        ],
+        "secondary_conditions": [
+          "Occasional headaches (tension-type)",
+          "Mild scoliosis"
+        ],
+        "medications": [
+          "Moisturizing cream daily",
+          "Hydrocortisone cream as needed for flares"
+        ],
+        "allergies": ["Dust mites", "Some cosmetics"]
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "School cafeteria lunch, home-cooked dinner",
+          "preferences": ["Tteokbokki", "Ramen", "Chicken", "Bubble tea"],
+          "restrictions": ["Parents limiting junk food"],
+          "eating_out_frequency": "2-3 times per week (with friends)",
+          "alcohol_consumption": "None"
+        },
+        "exercise": {
+          "frequency": "2 times per week",
+          "types": ["PE class", "Occasional badminton with friends"],
+          "duration_per_session": "50 minutes (PE class)",
+          "notes": "Limited due to academic pressure"
+        },
+        "sleep": {
+          "average_hours": 5.5,
+          "quality": "Poor",
+          "issues": ["Late-night studying", "Smartphone use before bed", "Difficulty waking for school"],
+          "bedtime": "01:00",
+          "wake_time": "06:30"
+        },
+        "smoking": {
+          "status": "Never smoker"
+        },
+        "stress_level": "High",
+        "social_activities": ["Studying with friends", "K-pop fan activities", "Social media (Instagram, TikTok)"],
+        "screen_time": "6-8 hours daily (studying and leisure)"
+      },
+      "family_history": {
+        "father": "Healthy, age 48",
+        "mother": "Atopic dermatitis, age 45",
+        "siblings": ["Younger brother age 12, has asthma"]
+      },
+      "health_checkup": {
+        "frequency": "Annually (school health check)",
+        "last_checkup": "2023-05-10",
+        "bmi": 20.8,
+        "waist_circumference": "Not measured"
+      },
+      "academic_health_notes": {
+        "hagwon_hours": "4 hours daily after school",
+        "university_entrance_exam_stress": "Moderate (not yet in 고3)"
+      }
+    },
+    {
+      "id": "KR-008",
+      "demographics": {
+        "name": "오민재",
+        "name_romanized": "Oh Min-jae",
+        "age": 42,
+        "gender": "Male",
+        "date_of_birth": "1982-12-03",
+        "residence": {
+          "city": "제주특별자치도 제주시",
+          "city_romanized": "Jeju City, Jeju",
+          "district": "노형동",
+          "district_romanized": "Nohyeong-dong",
+          "type": "Single-family House"
+        },
+        "marital_status": "Married",
+        "occupation": "Tangerine Farmer",
+        "education": "High School Graduate",
+        "income_level": "Middle"
+      },
+      "health_conditions": {
+        "severity": "Light",
+        "primary_conditions": [
+          {
+            "condition": "Chronic Lower Back Pain",
+            "diagnosed_year": 2019,
+            "status": "Managed with physical therapy and exercises",
+            "notes": "Occupational hazard from farming work"
+          },
+          {
+            "condition": "Seasonal Allergies",
+            "diagnosed_year": 2015,
+            "status": "Controlled with antihistamines during pollen season"
+          }
+        ],
+        "secondary_conditions": [
+          "Sun-damaged skin",
+          "Mild tennis elbow"
+        ],
+        "medications": [
+          "Ibuprofen as needed",
+          "Fexofenadine during allergy season",
+          "Sunscreen daily"
+        ],
+        "allergies": ["Citrus pollen (occupational exposure)"]
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Hearty traditional meals, wife prepares all meals",
+          "preferences": ["Fresh seafood", "Jeju black pork", "Home-grown vegetables", "Tangerines"],
+          "restrictions": [],
+          "eating_out_frequency": "Once per week",
+          "alcohol_consumption": "Moderate (local makgeolli and soju, 2-3 times weekly)"
+        },
+        "exercise": {
+          "frequency": "Daily",
+          "types": ["Physical farm work", "Walking", "Occasional fishing"],
+          "duration_per_session": "8+ hours of physical activity through work",
+          "notes": "Very active lifestyle through occupation"
+        },
+        "sleep": {
+          "average_hours": 7.5,
+          "quality": "Good",
+          "issues": ["Early rising for farm work", "Occasional back pain affecting sleep"],
+          "bedtime": "22:00",
+          "wake_time": "05:30"
+        },
+        "smoking": {
+          "status": "Former smoker",
+          "quit_year": 2015,
+          "pack_years": 15
+        },
+        "stress_level": "Low to Moderate",
+        "social_activities": ["Village community events", "Fishing with neighbors", "Agricultural cooperative meetings"],
+        "screen_time": "1-2 hours daily (TV news and weather)"
+      },
+      "family_history": {
+        "father": "Healthy, age 72 (still helps on farm)",
+        "mother": "Arthritis, age 70",
+        "siblings": ["Sister in Seoul, healthy"]
+      },
+      "health_checkup": {
+        "frequency": "Annually",
+        "last_checkup": "2023-07-20",
+        "bmi": 24.2,
+        "waist_circumference": "86 cm"
+      }
+    },
+    {
+      "id": "KR-009",
+      "demographics": {
+        "name": "윤서연",
+        "name_romanized": "Yoon Seo-yeon",
+        "age": 35,
+        "gender": "Female",
+        "date_of_birth": "1989-08-25",
+        "residence": {
+          "city": "서울특별시",
+          "city_romanized": "Seoul",
+          "district": "송파구",
+          "district_romanized": "Songpa-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "Married",
+        "occupation": "Marketing Manager (Cosmetics Company)",
+        "education": "Master's Degree (Business)",
+        "income_level": "Upper-middle"
+      },
+      "health_conditions": {
+        "severity": "Moderate",
+        "primary_conditions": [
+          {
+            "condition": "Polycystic Ovary Syndrome (PCOS)",
+            "diagnosed_year": 2016,
+            "status": "Managed with lifestyle and medication",
+            "notes": "Currently trying to conceive"
+          },
+          {
+            "condition": "Irritable Bowel Syndrome (IBS)",
+            "diagnosed_year": 2020,
+            "status": "Diarrhea-predominant, stress-related"
+          }
+        ],
+        "secondary_conditions": [
+          "Mild acne",
+          "Occasional migraines"
+        ],
+        "medications": [
+          "Metformin 500mg twice daily (for PCOS)",
+          "Probiotics daily",
+          "Sumatriptan as needed for migraines"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Conscious eating, trying low FODMAP diet",
+          "preferences": ["Organic foods", "Low-carb options", "Green tea"],
+          "restrictions": ["Avoiding dairy", "Limiting gluten", "Low FODMAP for IBS"],
+          "eating_out_frequency": "3-4 times per week (client meetings)",
+          "alcohol_consumption": "Light (wine 1-2 glasses weekly)"
+        },
+        "exercise": {
+          "frequency": "4-5 times per week",
+          "types": ["Running", "Weight training", "Yoga"],
+          "duration_per_session": "60-90 minutes",
+          "notes": "Dedicated to fitness for PCOS management and fertility"
+        },
+        "sleep": {
+          "average_hours": 6.5,
+          "quality": "Fair",
+          "issues": ["Work stress affecting sleep", "Late-night emails"],
+          "bedtime": "23:30",
+          "wake_time": "06:30"
+        },
+        "smoking": {
+          "status": "Never smoker"
+        },
+        "stress_level": "High",
+        "social_activities": ["Fitness classes", "Book club", "Occasional spa days"],
+        "screen_time": "8-10 hours daily (work and personal)"
+      },
+      "family_history": {
+        "father": "Healthy, age 65",
+        "mother": "PCOS history, thyroid issues, age 62",
+        "siblings": ["Only child"]
+      },
+      "health_checkup": {
+        "frequency": "Every 6 months (fertility monitoring)",
+        "last_checkup": "2023-12-01",
+        "bmi": 24.0,
+        "waist_circumference": "80 cm"
+      },
+      "fertility_notes": {
+        "trying_to_conceive": true,
+        "duration": "18 months",
+        "treatment": "Considering IVF"
+      }
+    },
+    {
+      "id": "KR-010",
+      "demographics": {
+        "name": "강태호",
+        "name_romanized": "Kang Tae-ho",
+        "age": 8,
+        "gender": "Male",
+        "date_of_birth": "2016-01-05",
+        "residence": {
+          "city": "대전광역시",
+          "city_romanized": "Daejeon",
+          "district": "유성구",
+          "district_romanized": "Yuseong-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "N/A (Child)",
+        "occupation": "Elementary School Student (2nd Grade)",
+        "education": "Currently in Elementary School",
+        "income_level": "Middle (Family)"
+      },
+      "health_conditions": {
+        "severity": "Moderate",
+        "primary_conditions": [
+          {
+            "condition": "Asthma",
+            "diagnosed_year": 2020,
+            "status": "Well-controlled with inhaler",
+            "notes": "Triggered by cold air and exercise"
+          },
+          {
+            "condition": "Food Allergy (Peanuts)",
+            "diagnosed_year": 2018,
+            "status": "Strict avoidance, carries EpiPen",
+            "notes": "Anaphylaxis risk"
+          }
+        ],
+        "secondary_conditions": [
+          "Eczema (mild)",
+          "Frequent upper respiratory infections"
+        ],
+        "medications": [
+          "Fluticasone inhaler twice daily",
+          "Salbutamol inhaler as needed",
+          "EpiPen for emergencies"
+        ],
+        "allergies": ["Peanuts (severe)", "Tree nuts (moderate)", "Dust mites"]
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Picky eater, parents manage allergies carefully",
+          "preferences": ["Rice", "Seaweed", "Chicken", "Fruits"],
+          "restrictions": ["Strict peanut and tree nut avoidance"],
+          "eating_out_frequency": "1-2 times per week (family outings)",
+          "alcohol_consumption": "N/A"
+        },
+        "exercise": {
+          "frequency": "Daily",
+          "types": ["Taekwondo (2 times weekly)", "Playing with friends", "PE class"],
+          "duration_per_session": "30-60 minutes",
+          "notes": "Parents monitor for asthma symptoms during activity"
+        },
+        "sleep": {
+          "average_hours": 9,
+          "quality": "Good",
+          "issues": ["Occasional nightmares", "Resists bedtime on weekends"],
+          "bedtime": "21:00",
+          "wake_time": "07:00"
+        },
+        "smoking": {
+          "status": "N/A (Child)"
+        },
+        "stress_level": "Low",
+        "social_activities": ["Playdates", "Taekwondo class", "Watching cartoons", "Playing mobile games"],
+        "screen_time": "2 hours daily (limited by parents)"
+      },
+      "family_history": {
+        "father": "Allergic rhinitis, age 40",
+        "mother": "Eczema, age 38",
+        "siblings": ["Younger sister age 5, no allergies"]
+      },
+      "health_checkup": {
+        "frequency": "Annually + as needed for asthma",
+        "last_checkup": "2023-09-01",
+        "bmi": "18.5 (75th percentile)",
+        "growth": "On track for age"
+      },
+      "school_health_notes": {
+        "school_nurse_aware": true,
+        "emergency_plan": "In place",
+        "special_arrangements": "Nut-free table in cafeteria"
+      }
+    },
+    {
+      "id": "KR-011",
+      "demographics": {
+        "name": "백승호",
+        "name_romanized": "Baek Seung-ho",
+        "age": 50,
+        "gender": "Male",
+        "date_of_birth": "1974-06-20",
+        "residence": {
+          "city": "울산광역시",
+          "city_romanized": "Ulsan",
+          "district": "남구",
+          "district_romanized": "Nam-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "Married",
+        "occupation": "Shipyard Welder",
+        "education": "Technical High School Graduate",
+        "income_level": "Middle"
+      },
+      "health_conditions": {
+        "severity": "Serious",
+        "primary_conditions": [
+          {
+            "condition": "Chronic Obstructive Pulmonary Disease (COPD)",
+            "diagnosed_year": 2021,
+            "status": "Stage 2, on bronchodilators",
+            "fev1": "65% predicted",
+            "notes": "Occupational exposure to welding fumes"
+          },
+          {
+            "condition": "Noise-Induced Hearing Loss",
+            "diagnosed_year": 2019,
+            "status": "Bilateral, uses hearing aids",
+            "notes": "Occupational hazard"
+          }
+        ],
+        "secondary_conditions": [
+          "Chronic shoulder pain (rotator cuff)",
+          "Hypertension (borderline)"
+        ],
+        "medications": [
+          "Tiotropium inhaler daily",
+          "Salbutamol inhaler as needed",
+          "Naproxen as needed for pain"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Hearty Korean meals, wife cooks",
+          "preferences": ["Samgyetang", "Grilled fish", "Rice and soup"],
+          "restrictions": ["Trying to reduce sodium for blood pressure"],
+          "eating_out_frequency": "1-2 times per week",
+          "alcohol_consumption": "Moderate (soju 1-2 times weekly)"
+        },
+        "exercise": {
+          "frequency": "2-3 times per week",
+          "types": ["Morning walks", "Light hiking on weekends"],
+          "duration_per_session": "30-45 minutes",
+          "notes": "Limited by breathing capacity"
+        },
+        "sleep": {
+          "average_hours": 6.5,
+          "quality": "Fair",
+          "issues": ["Occasional coughing at night", "Early morning work schedule"],
+          "bedtime": "22:30",
+          "wake_time": "05:00"
+        },
+        "smoking": {
+          "status": "Former smoker",
+          "quit_year": 2021,
+          "pack_years": 25,
+          "notes": "Quit after COPD diagnosis"
+        },
+        "stress_level": "Moderate",
+        "social_activities": ["Union activities", "Weekend hiking with coworkers", "Watching soccer"],
+        "screen_time": "2-3 hours daily"
+      },
+      "family_history": {
+        "father": "Lung cancer (deceased at 68, was a miner)",
+        "mother": "Healthy, age 78",
+        "siblings": ["Two brothers, one with similar respiratory issues"]
+      },
+      "health_checkup": {
+        "frequency": "Every 6 months (occupational health)",
+        "last_checkup": "2023-11-01",
+        "bmi": 25.5,
+        "waist_circumference": "90 cm"
+      },
+      "occupational_health": {
+        "years_in_occupation": 28,
+        "workplace_hazards": ["Welding fumes", "Noise exposure", "Heavy lifting"],
+        "protective_equipment": "Respirator, hearing protection, safety gear"
+      }
+    },
+    {
+      "id": "KR-012",
+      "demographics": {
+        "name": "임하늘",
+        "name_romanized": "Lim Ha-neul",
+        "age": 24,
+        "gender": "Non-binary",
+        "date_of_birth": "2000-03-08",
+        "residence": {
+          "city": "서울특별시",
+          "city_romanized": "Seoul",
+          "district": "홍대/마포구",
+          "district_romanized": "Hongdae/Mapo-gu",
+          "type": "Shared Housing (셰어하우스)"
+        },
+        "marital_status": "Single",
+        "occupation": "Freelance Graphic Designer / Part-time Café Worker",
+        "education": "University Student (Art & Design, on leave)",
+        "income_level": "Lower"
+      },
+      "health_conditions": {
+        "severity": "Moderate",
+        "primary_conditions": [
+          {
+            "condition": "Major Depressive Disorder",
+            "diagnosed_year": 2022,
+            "status": "On medication and therapy",
+            "notes": "Related to academic pressure and identity issues"
+          },
+          {
+            "condition": "Generalized Anxiety Disorder",
+            "diagnosed_year": 2022,
+            "status": "Managed with medication"
+          }
+        ],
+        "secondary_conditions": [
+          "Insomnia",
+          "Tension headaches"
+        ],
+        "medications": [
+          "Escitalopram 10mg daily",
+          "Alprazolam 0.25mg as needed for acute anxiety"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 2,
+          "description": "Irregular, often skips meals when mood is low",
+          "preferences": ["Vegan options when possible", "Café food", "Instant noodles when busy"],
+          "restrictions": ["Trying to eat plant-based"],
+          "eating_out_frequency": "4-5 times per week",
+          "alcohol_consumption": "Social drinking (craft beer, cocktails, 1-2 times weekly)"
+        },
+        "exercise": {
+          "frequency": "Irregular",
+          "types": ["Walking", "Occasional yoga", "Dancing at clubs"],
+          "duration_per_session": "Variable",
+          "notes": "Exercise helps mood but motivation is inconsistent"
+        },
+        "sleep": {
+          "average_hours": "5-8 (variable)",
+          "quality": "Variable",
+          "issues": ["Delayed sleep phase", "Oversleeping during depressive episodes", "Insomnia during anxious periods"],
+          "bedtime": "02:00-04:00",
+          "wake_time": "10:00-12:00"
+        },
+        "smoking": {
+          "status": "Occasional smoker",
+          "cigarettes_per_day": "2-3 when stressed"
+        },
+        "stress_level": "High",
+        "social_activities": ["Art exhibitions", "Underground music scene", "LGBTQ+ community events", "Online communities"],
+        "screen_time": "10+ hours daily (work and social)"
+      },
+      "family_history": {
+        "father": "Estranged relationship",
+        "mother": "Depression history, age 52",
+        "siblings": ["Older brother, limited contact"]
+      },
+      "health_checkup": {
+        "frequency": "Irregular",
+        "last_checkup": "2023-03-15",
+        "bmi": 19.2,
+        "waist_circumference": "68 cm"
+      },
+      "mental_health_support": {
+        "therapist": "Weekly sessions",
+        "psychiatrist": "Monthly medication review",
+        "support_system": "Close friends, LGBTQ+ community"
+      }
+    },
+    {
+      "id": "KR-013",
+      "demographics": {
+        "name": "조영철",
+        "name_romanized": "Cho Young-chul",
+        "age": 62,
+        "gender": "Male",
+        "date_of_birth": "1962-10-30",
+        "residence": {
+          "city": "충청남도 천안시",
+          "city_romanized": "Cheonan, South Chungcheong",
+          "district": "서북구",
+          "district_romanized": "Seobuk-gu",
+          "type": "Apartment"
+        },
+        "marital_status": "Married",
+        "occupation": "Small Business Owner (Restaurant)",
+        "education": "High School Graduate",
+        "income_level": "Middle"
+      },
+      "health_conditions": {
+        "severity": "Serious",
+        "primary_conditions": [
+          {
+            "condition": "Stomach Cancer (Early Stage)",
+            "diagnosed_year": 2023,
+            "status": "Post-surgery, in remission",
+            "notes": "Endoscopic submucosal dissection (ESD) performed, regular follow-ups"
+          },
+          {
+            "condition": "Chronic Gastritis",
+            "diagnosed_year": 2010,
+            "status": "Managed, H. pylori treated",
+            "notes": "Long-term PPI use"
+          }
+        ],
+        "secondary_conditions": [
+          "Anxiety related to cancer diagnosis",
+          "Weight loss post-surgery"
+        ],
+        "medications": [
+          "Pantoprazole 40mg daily",
+          "Multivitamin",
+          "Digestive enzymes with meals"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 5,
+          "description": "Small, frequent meals post-gastrectomy",
+          "preferences": ["Soft foods", "Well-cooked vegetables", "Lean proteins"],
+          "restrictions": ["Avoiding spicy foods", "Limiting raw foods", "Small portion sizes"],
+          "eating_out_frequency": "Rarely (eats at own restaurant but modified portions)",
+          "alcohol_consumption": "None (quit after diagnosis)"
+        },
+        "exercise": {
+          "frequency": "Daily",
+          "types": ["Morning walks", "Light stretching"],
+          "duration_per_session": "30-40 minutes",
+          "notes": "Gradually increasing activity post-surgery"
+        },
+        "sleep": {
+          "average_hours": 7,
+          "quality": "Fair",
+          "issues": ["Anxiety about cancer recurrence", "Occasional heartburn"],
+          "bedtime": "22:00",
+          "wake_time": "05:30"
+        },
+        "smoking": {
+          "status": "Former smoker",
+          "quit_year": 2023,
+          "pack_years": 35
+        },
+        "stress_level": "Moderate to High",
+        "social_activities": ["Managing restaurant (reduced hours)", "Church activities", "Family gatherings"],
+        "screen_time": "2-3 hours daily"
+      },
+      "family_history": {
+        "father": "Stomach cancer (deceased at 70)",
+        "mother": "Healthy, deceased at 88",
+        "siblings": ["Sister with no cancer history"]
+      },
+      "health_checkup": {
+        "frequency": "Every 3 months (cancer surveillance)",
+        "last_checkup": "2023-12-10",
+        "bmi": 21.0,
+        "waist_circumference": "82 cm"
+      },
+      "cancer_care": {
+        "oncologist_visits": "Every 3 months",
+        "next_endoscopy": "2024-03-15",
+        "cancer_survivor_support_group": true
+      }
+    },
+    {
+      "id": "KR-014",
+      "demographics": {
+        "name": "김예진",
+        "name_romanized": "Kim Ye-jin",
+        "age": 38,
+        "gender": "Female",
+        "date_of_birth": "1986-11-12",
+        "residence": {
+          "city": "세종특별자치시",
+          "city_romanized": "Sejong City",
+          "district": "한솔동",
+          "district_romanized": "Hansol-dong",
+          "type": "Apartment"
+        },
+        "marital_status": "Married",
+        "occupation": "Government Official (Ministry of Environment)",
+        "education": "Master's Degree (Public Administration)",
+        "income_level": "Upper-middle"
+      },
+      "health_conditions": {
+        "severity": "Light",
+        "primary_conditions": [
+          {
+            "condition": "Mild Hyperthyroidism",
+            "diagnosed_year": 2021,
+            "status": "Controlled with medication",
+            "tsh_level": "0.8 mIU/L"
+          }
+        ],
+        "secondary_conditions": [
+          "Occasional palpitations",
+          "Dry eyes (from screen use)"
+        ],
+        "medications": [
+          "Methimazole 5mg daily",
+          "Artificial tears"
+        ],
+        "allergies": ["Shellfish"]
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Balanced diet, meal prep on weekends",
+          "preferences": ["Korean home cooking", "Salads", "Organic produce"],
+          "restrictions": ["Limiting iodine-rich foods", "Avoiding shellfish"],
+          "eating_out_frequency": "1-2 times per week",
+          "alcohol_consumption": "Rare (special occasions only)"
+        },
+        "exercise": {
+          "frequency": "4 times per week",
+          "types": ["Running (registered for local marathons)", "Cycling", "Home workout"],
+          "duration_per_session": "45-60 minutes",
+          "notes": "Very health-conscious"
+        },
+        "sleep": {
+          "average_hours": 7.5,
+          "quality": "Good",
+          "issues": ["Occasional stress-related difficulty falling asleep"],
+          "bedtime": "23:00",
+          "wake_time": "06:30"
+        },
+        "smoking": {
+          "status": "Never smoker"
+        },
+        "stress_level": "Low to Moderate",
+        "social_activities": ["Running club", "Book reading", "Parenting activities", "Volunteer work"],
+        "screen_time": "8 hours daily (mostly work-related)"
+      },
+      "family_history": {
+        "father": "Thyroid disease, age 68",
+        "mother": "Healthy, age 65",
+        "siblings": ["Younger brother, healthy"]
+      },
+      "health_checkup": {
+        "frequency": "Annually + thyroid monitoring every 3 months",
+        "last_checkup": "2023-10-20",
+        "bmi": 21.8,
+        "waist_circumference": "72 cm"
+      },
+      "parenting_notes": {
+        "children": "Two children (ages 8 and 5)",
+        "childcare": "After-school programs and parents' help"
+      }
+    },
+    {
+      "id": "KR-015",
+      "demographics": {
+        "name": "송민규",
+        "name_romanized": "Song Min-gyu",
+        "age": 72,
+        "gender": "Male",
+        "date_of_birth": "1952-04-02",
+        "residence": {
+          "city": "강원도 춘천시",
+          "city_romanized": "Chuncheon, Gangwon",
+          "district": "소양로",
+          "district_romanized": "Soyang-ro",
+          "type": "Villa (빌라)"
+        },
+        "marital_status": "Married",
+        "occupation": "Retired (Former School Principal)",
+        "education": "University Graduate (Education)",
+        "income_level": "Upper-middle"
+      },
+      "health_conditions": {
+        "severity": "Moderate",
+        "primary_conditions": [
+          {
+            "condition": "Benign Prostatic Hyperplasia (BPH)",
+            "diagnosed_year": 2018,
+            "status": "On medication",
+            "psa_level": "3.2 ng/mL"
+          },
+          {
+            "condition": "Age-related Macular Degeneration (Dry)",
+            "diagnosed_year": 2020,
+            "status": "Monitoring, taking supplements",
+            "notes": "Affecting reading ability"
+          },
+          {
+            "condition": "Controlled Hypertension",
+            "diagnosed_year": 2015,
+            "status": "Well-controlled",
+            "blood_pressure": "128/78 mmHg"
+          }
+        ],
+        "secondary_conditions": [
+          "Mild hearing loss",
+          "Chronic lower back stiffness"
+        ],
+        "medications": [
+          "Tamsulosin 0.4mg daily",
+          "Losartan 50mg daily",
+          "AREDS2 formula (eye vitamins)",
+          "Glucosamine for joints"
+        ],
+        "allergies": []
+      },
+      "living_habits": {
+        "diet": {
+          "meals_per_day": 3,
+          "description": "Traditional Korean diet, wife is excellent cook",
+          "preferences": ["Vegetable banchan", "Fish", "Mushrooms", "Traditional soups"],
+          "restrictions": ["Limiting red meat", "Moderate sodium"],
+          "eating_out_frequency": "Once per week",
+          "alcohol_consumption": "Light (occasional traditional wine with dinner)"
+        },
+        "exercise": {
+          "frequency": "Daily",
+          "types": ["Mountain hiking (nearby Bukhansan)", "Tai chi", "Swimming at senior center"],
+          "duration_per_session": "60-90 minutes",
+          "notes": "Very active for age, lifetime hiking enthusiast"
+        },
+        "sleep": {
+          "average_hours": 7,
+          "quality": "Good",
+          "issues": ["Nighttime urination (2-3 times)", "Early rising"],
+          "bedtime": "22:00",
+          "wake_time": "05:00"
+        },
+        "smoking": {
+          "status": "Never smoker"
+        },
+        "stress_level": "Low",
+        "social_activities": ["Hiking club", "Senior university courses", "Calligraphy", "Mentoring young teachers"],
+        "screen_time": "3-4 hours daily (reading news, video calls with family)"
+      },
+      "family_history": {
+        "father": "Prostate cancer (deceased at 80)",
+        "mother": "Healthy, lived to 92",
+        "siblings": ["One brother with BPH, one sister healthy"]
+      },
+      "health_checkup": {
+        "frequency": "Every 6 months",
+        "last_checkup": "2023-11-15",
+        "bmi": 23.5,
+        "waist_circumference": "85 cm"
+      }
+    }
+  ],
+  "population_statistics_reference": {
+    "note": "These profiles are designed to represent diverse segments of the Korean population",
+    "age_distribution": "Pediatric to elderly (8-78 years)",
+    "gender_representation": "Male, Female, Non-binary",
+    "geographic_coverage": ["Seoul", "Busan", "Daegu", "Incheon", "Gwangju", "Daejeon", "Ulsan", "Sejong", "Gyeonggi-do", "Gangwon-do", "Chungcheongnam-do", "Jeju-do"],
+    "health_condition_severity": {
+      "serious": 4,
+      "moderate": 6,
+      "light": 5
+    },
+    "common_korean_health_issues_represented": [
+      "Cardiovascular diseases (hypertension, coronary artery disease)",
+      "Metabolic disorders (diabetes, fatty liver, PCOS)",
+      "Respiratory conditions (COPD, asthma)",
+      "Gastrointestinal issues (gastric cancer, GERD, IBS)",
+      "Musculoskeletal conditions (osteoporosis, arthritis, back pain)",
+      "Thyroid disorders",
+      "Mental health conditions",
+      "Allergic conditions",
+      "Age-related conditions (macular degeneration, BPH, cognitive decline)",
+      "Occupational health issues"
+    ],
+    "lifestyle_factors_included": [
+      "Diet (traditional Korean, modern mixed, special diets)",
+      "Exercise habits (sedentary to active)",
+      "Sleep patterns",
+      "Smoking and alcohol use",
+      "Work-life balance",
+      "Screen time and digital habits",
+      "Social connections"
+    ]
+  }
+}
