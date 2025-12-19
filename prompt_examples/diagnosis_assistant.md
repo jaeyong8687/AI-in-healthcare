@@ -4,39 +4,34 @@
 
 **Prompt:**
 ```
-You are an AI medical assistant. A patient presents with the following symptoms:
-- Persistent cough for 2 weeks
-- Fever (38.5°C)
-- Fatigue
-- Shortness of breath
+You are an AI medical assistant. Given any patient record or symptom data from your healthcare dataset, analyze the symptoms and list possible diagnoses.
 
-Based on these symptoms, what are the possible diagnoses? Please list them in order of likelihood and explain your reasoning.
+Instructions:
+- Use available symptom data to generate a ranked list of possible diagnoses.
+- Explain your reasoning for each diagnosis, referencing relevant data or clinical guidelines.
+- Output should be in Korean.
 ```
 
 ## Example 2: Differential Diagnosis
 
 **Prompt:**
 ```
-Given the following patient information:
-- Age: 45
-- Gender: Male
-- Chief complaint: Chest pain
-- Duration: 3 hours
-- Character: Crushing, radiating to left arm
-- Associated symptoms: Sweating, nausea
+Given any patient profile and presenting complaint from your dataset, provide a differential diagnosis and recommend immediate next steps.
 
-Provide a differential diagnosis and recommend immediate next steps.
+Instructions:
+- Use all relevant patient data (age, gender, symptoms, history) to generate a differential diagnosis.
+- Recommend evidence-based immediate actions or investigations, tailored to the scenario.
+- Output should be in Korean.
 ```
 
 ## Example 3: Lab Result Interpretation
 
 **Prompt:**
 ```
-Interpret the following lab results for a 60-year-old female patient:
-- HbA1c: 8.2%
-- Fasting glucose: 165 mg/dL
-- LDL cholesterol: 145 mg/dL
-- Blood pressure: 145/92 mmHg
+Given any lab results and patient context from your dataset, interpret the findings and provide recommendations.
 
-What do these results suggest, and what treatment recommendations would you make?
+Instructions:
+- Summarize what the lab results indicate about the patient's health.
+- Suggest appropriate treatment or management steps, referencing clinical guidelines or best practices.
+- Output should be in Korean.
 ```
