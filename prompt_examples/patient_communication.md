@@ -4,73 +4,63 @@
 
 **Prompt:**
 ```
-You need to explain a Type 2 diabetes diagnosis to a patient with limited health literacy.
+Given a patient record from any healthcare dataset, generate a clear, empathetic explanation of a new diagnosis for a patient with limited health literacy.
 
-Patient context:
-- 55-year-old with 8th grade education
-- Newly diagnosed with HbA1c of 8.5%
-- Concerned and anxious about diagnosis
+Instructions:
+1. Use simple language to explain the diagnosis and its meaning.
+2. Address common concerns relevant to the diagnosis and patient context.
+3. Outline practical implications for daily life.
+4. Offer hope and actionable next steps tailored to the patient's situation.
 
-Create a clear, empathetic explanation that:
-1. Explains what diabetes is in simple terms
-2. Addresses common concerns
-3. Outlines what this means for daily life
-4. Provides hope and actionable next steps
+!Important: All communication should be natural Korean.
 ```
 
 ## Example 2: Medication Instructions
 
 **Prompt:**
 ```
-Generate patient-friendly instructions for starting a new blood pressure medication:
+Using any patient and medication data from your dataset, generate patient-friendly instructions for starting a new medication.
 
-Medication: Lisinopril 10mg daily
-Patient: 62-year-old, takes multiple medications
+Instructions:
+- Specify when and how to take the medication.
+- List common side effects in simple language.
+- Explain what to do if a dose is missed.
+- Highlight warning signs that require immediate attention.
+- Describe how the medication helps the patient's condition, referencing relevant data if available.
 
-Include:
-- When and how to take the medication
-- Common side effects in simple language
-- What to do if a dose is missed
-- Warning signs that require immediate attention
-- How this medication helps their condition
+!Important: All communication should be natural Korean.
 ```
 
 ## Example 3: Lifestyle Counseling
 
 **Prompt:**
 ```
-Create a motivational counseling script for a patient who needs to make lifestyle changes:
+Given any patient profile from your dataset, create a motivational counseling script to support lifestyle changes.
 
-Patient scenario:
-- Prediabetic (HbA1c 6.2%)
-- Overweight (BMI 29)
-- Sedentary job
-- Motivated but overwhelmed
+Instructions:
+- Start with an empathetic opening based on the patient's context.
+- Suggest specific, achievable goals using available health data.
+- Provide practical tips for diet, exercise, or other relevant areas.
+- Offer strategies to overcome common barriers.
+- End with an encouraging closing tailored to the patient's motivation level.
 
-Provide:
-- Empathetic opening
-- Specific, achievable goals
-- Practical tips for diet and exercise
-- Strategies to overcome barriers
-- Encouraging closing
+!Important: All communication should be natural Korean.
 ```
 
 ## Example 4: Breaking Bad News
 
 **Prompt:**
 ```
-Draft a framework for discussing a cancer diagnosis with a patient:
+Using any diagnosis and patient context from your dataset, draft a framework for discussing serious or life-changing news with a patient.
 
-Situation:
-- Patient is a 58-year-old who just received biopsy results
-- Diagnosis: Early-stage breast cancer
-- Good prognosis with treatment
+Instructions:
+Apply the SPIKES protocol to structure the conversation:
+- Setting: Ensure privacy and comfort.
+- Perception: Assess the patient's understanding using available data.
+- Invitation: Ask how much detail the patient wants.
+- Knowledge: Share information clearly and compassionately.
+- Emotions: Respond empathetically to patient reactions.
+- Strategy and Summary: Outline next steps and support options, tailored to the patient's situation.
 
-Use the SPIKES protocol to structure the conversation:
-- Setting
-- Perception
-- Invitation
-- Knowledge
-- Emotions
-- Strategy and Summary
+!Important: All communication should be natural Korean.
 ```
