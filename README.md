@@ -1,13 +1,13 @@
 # AI-in-Healthcare
 
-This repository contains resources for the AI in Healthcare class for aSSIST students. It includes synthetic patient data and prompt examples for healthcare AI applications.
+This repository contains resources for the AI in Healthcare class for aSSIST students. It includes lecture materials, synthetic patient data and prompt examples for healthcare AI applications.
 
 ## Repository Structure
 
 ### `data/` Directory
 
 #### `synthea_sample_data_fhir_dstu2_latest/`
-Contains 100+ synthetic patient records generated using Synthea, a synthetic patient data generator. These records are in FHIR (Fast Healthcare Interoperability Resources) DSTU2 format.
+Contains synthetic patient records generated using Synthea, a synthetic patient data generator. These records are in FHIR (Fast Healthcare Interoperability Resources) DSTU2 format.
 
 **Features:**
 - FHIR DSTU2 compliant JSON format
@@ -46,7 +46,4 @@ The synthetic patient data follows the FHIR DSTU2 standard, which includes:
 ## Usage
 
 These resources are designed for:
-- Training healthcare AI models
-- Testing clinical decision support systems
 - Educational demonstrations of healthcare informatics
-- Developing and evaluating healthcare applications
